@@ -3,57 +3,83 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-.btn-primary{
-    width: 244px;
-    height: 30px;
-    border: 1px solid #0D1321;
-    padding: 17px 24px 17px 24px;
-    border-radius: 8px;
-    
-    }
+.btn-primary {
+  width: 244px;
+  height: 30px;
+  border: 1px solid #0d1321;
+  padding: 17px 24px 17px 24px;
+  border-radius: 8px;
+}
 /* nav style start */
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    margin: 40px 150px;
-    align-items: center;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 150px;
+  align-items: center;
 }
 .nav-title {
   color: rgb(13, 19, 33);
   font-size: 28px;
   font-weight: 800;
   line-height: 33px;
-  
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
-.btn{
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
-    color: rgb(13, 19, 33);
+.btn {
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(13, 19, 33);
 }
 /* **************************************************** */
 /* banner part design */
 /* ************************************************** */
-.banner{
-    background: url(../assets/Hero-bg.png);
+.banner {
+  background: url(../assets/Hero-bg.png);
+  text-align: center;
+  height: 650px;
+}
+
+.banner-profile-pic {
+  width: 230px;
+  height: 230px;
+  margin-top: 158px;
+}
+
+.banner-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+}
+.banner-description {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn2 {
+  background-color: #0d1321;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+}
+.center {
+  text-align: center;
+  margin-top: 50px;
+}
+/* intro */
+.into-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.intro-des{
     text-align: center;
-    height: 650px;
-}
-
-.banner-profile-pic{
-    width: 230px;
-    height: 230px;
-    margin-top: 158px;
-}
-
-.banner-title{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 48px;
-    font-weight: 800;
- 
 }
