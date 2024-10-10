@@ -50,13 +50,11 @@ li {
 
 .banner-title {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 48px;
   font-weight: 800;
 }
 .banner-description {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
 }
@@ -73,7 +71,6 @@ li {
 /* intro */
 .into-title {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 32px;
   font-weight: 800;
   text-align: center;
@@ -85,20 +82,18 @@ li {
 }
 /* ************************************************ */
 /* hero started***************************************** */
-.hero-container{
-    display: flex;
-    justify-content: space-between;
-    margin: 60px 300px;
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 300px;
 }
 .content-title {
   color: rgba(13, 19, 33, 0.7);
-  font-family: Azeret Mono;
   font-size: 24px;
   font-weight: 700;
 }
 .content-des {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
 }
@@ -109,8 +104,29 @@ li {
   border-radius: 8px;
   text-align: center;
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 20px;
   font-weight: 600;
   opacity: 0.7;
+}
+/* iframe */
+.iframe {
+  position: static;
+  width: 1250px;
+  height: 550px;
+  margin: 80px 300px;
+  border-radius: 16px;
+}
+/* *************************card design section**************** */
+.card-container {
+  width: 1140px;
+  height: 219px;
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  align-items: center;
+  padding: 0px 30px;
+  margin: 30px 300px;
+  gap: 30px;
 }
