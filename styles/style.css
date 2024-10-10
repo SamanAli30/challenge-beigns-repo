@@ -80,6 +80,37 @@ li {
   margin-top: 50px;
   margin-bottom: 30px;
 }
-.intro-des{
-    text-align: center;
+.intro-des {
+  text-align: center;
+}
+/* ************************************************ */
+/* hero started***************************************** */
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 300px;
+}
+.content-title {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+}
+.content-des {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+}
+.more {
+  width: 171px;
+  height: 47px;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  text-align: center;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.7;
 }
